@@ -1,6 +1,7 @@
 import '../App.css';
 import About from '../components/about';
 import Articles from '../components/articles';
+import Footer from '../components/footer';
 import Header from '../components/header';
 import Photoes from '../components/photoes';
 import Services from '../components/services';
@@ -21,6 +22,7 @@ function App() {
         <Videos />
         <Photoes />
       </div>
+      <Footer />
 
     </div>
   );
