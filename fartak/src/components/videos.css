@@ -1,0 +1,28 @@
+.video-section {
+  width: 42%;
+  margin-right: 4%;
+}
+.video-box {
+  margin-right: 10%;
+}
+.video-image-content {
+  display: flex;
+  align-items: center;
+}
+.title-video {
+  background-color: #6527a3;
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 4%;
+  opacity: 0.9;
+}
+.curcles-videos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+.image-section{
+  width: 42%;
+}
