@@ -1,0 +1,21 @@
+.title-services {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 2% 9% 2% 0;
+}
+.services-box {
+  display: flex;
+  align-items: center;
+  width: 84%;
+  margin-right: 8%;
+}
+.services-box img {
+  cursor: pointer;
+  width: 32%;
+}
+.services-box img:hover {
+  transform: scale(1.01) rotate(0.5deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
