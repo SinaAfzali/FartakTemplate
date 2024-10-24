@@ -1,13 +1,29 @@
-import Header from "../components/header"
-import About from "../components/about"
+import '../App.css';
+import About from '../components/about';
+import Articles from '../components/articles';
+import Header from '../components/header';
+import Photoes from '../components/photoes';
+import Services from '../components/services';
+import SuccessfulCases from '../components/successfulCases';
+import Universities from '../components/universities';
+import Videos from '../components/videos';
 
 function App() {
-    return (
-        <div style={{ width: "100vw" }}>
-            <Header />
-            <About />
-        </div>
-    )
+  return (
+    <div style={{ width: "100vw" }}>
+      <Header />
+      <About />
+      <Universities />
+      <Services />
+      <SuccessfulCases />
+      <Articles />
+      <div style={{ display: "flex" }}>
+        <Videos />
+        <Photoes />
+      </div>
+
+    </div>
+  );
 }
 
-export default App
+export default App;
