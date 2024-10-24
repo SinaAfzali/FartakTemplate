@@ -1,0 +1,68 @@
+.successful-cases {
+  display: flex;
+  background-color: #dad9d9;
+  width: 100%;
+  padding: 2%;
+  margin-top: 3%;
+}
+.main-file-box {
+  width: 50%;
+  margin: 0 6% 0 1%;
+  background-color: #7c4bae;
+  padding: 0.5% 2% 0 2%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.main-file {
+  margin: 2%;
+}
+.successful-cases-title {
+  color: white;
+  display: inline-block;
+  border-bottom: solid rgb(184, 255, 62) 3px;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 6%;
+}
+.main-file-content {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+.main-file-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+.main-file-content-text {
+  flex: 10;
+}
+.main-file-content-img {
+ flex: 7;
+}
+.main-file-text {
+  margin-left: 5%;
+}
+.main-file-text p {
+  font-size: 14px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.curcles-files{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.other-files {
+  width: 35%;
+  margin: 0;
+}
+.other-files img {
+  width: 75%;
+  cursor: pointer;
+}
+
+.other-files img:hover {
+    transform: scale(1.01) rotate(0.5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
