@@ -1,26 +1,49 @@
 import "../styles/videos.css"
 import AngleLeft from "../svgIcons/angle-left"
 import AngleRight from "../svgIcons/angle-right"
-import videoImage from "../assets/video.jpg"
+import video1 from "../assets/video1.jpg"
+import video2 from "../assets/video2.jpg"
+import video3 from "../assets/video3.jpg"
+import video4 from "../assets/video4.jpg"
 import Circle from "../svgIcons/circle"
 import { useState } from "react"
 
 function Videos() {
+    const videos = [
+        {
+            title : "ویدیو یک",
+            image : video1
+        },
+        {
+            title : "ویدیو دو",
+            image : video2
+        },
+        {
+            title : "ویدیو سه",
+            image : video3
+        },
+        {
+            title : "ویدیو چهار",
+            image : video4
+        }
+    ]
     const [selectedVideo, setSelectedVideo] = useState(1)
+    const [video, setVideo] = useState(videos[0])
     const clickHandler = (action) => {
         if (action === "R") {
-            setSelectedVideo(selectedVideo === 1 ? 4 : selectedVideo - 1)
+            setSelectedVideo(selectedVideo === 4 ? 1 : selectedVideo + 1)
             console.log("right");
         } else if (action === "L") {
-            setSelectedVideo(selectedVideo === 4 ? 1 : selectedVideo + 1)
+            setSelectedVideo(selectedVideo === 1 ? 4 : selectedVideo - 1)
         }
+        setVideo(videos[selectedVideo - 1])
     }
     return (
         <div className="video-section">
             <div className="selected-option title-services">
                 ویدیو ها :
             </div>
-            <div className="video-box" style={{ backgroundImage: `url(${videoImage})` }}>
+            <div className="video-box" style={{ backgroundImage: `url(${video.image})` }}>
                 <div className="video-image">
                     <div className="video-image-head">
 
@@ -45,7 +68,7 @@ function Videos() {
                     </div>
                 </div>
                 <div className="title-video">
-                    عنوان ویدیو
+                    {video.title}
                 </div>
             </div>
         </div>
