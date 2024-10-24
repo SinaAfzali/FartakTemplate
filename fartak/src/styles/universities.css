@@ -1,0 +1,28 @@
+.title-university {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 2% 9% 2% 0;
+}
+.university-box {
+  display: flex;
+  align-items: center;
+  width: 84%;
+  margin-right: 8%;
+}
+.university-box img {
+  cursor: pointer;
+  width: 16%;
+  height: 200px;
+}
+.university-box img:hover {
+  transform: scale(1.02) rotate(1deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1000px) {
+  .university-box img {
+    width: 16%;
+    height: 140px;
+  }
+}
