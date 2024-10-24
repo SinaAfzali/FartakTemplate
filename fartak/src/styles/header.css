@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Yekan";
+  src: url("../../public/Yekan.woff") format("woff");
+}
+
+.header-container {
+  direction: ltr;
+  display: flex;
+  margin: 10px 0 0 200px;
+  background-color: #d3d3d3;
+  flex: 6;
+}
+
+.search-icon {
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: #6527a3;
+  padding: 2px 5px 2px 5px;
+  flex: 3;
+}
+
+.search-box input {
+  margin: 5px;
+  margin-right: 0;
+  background-color: #a37dc8;
+  border: none;
+  border-radius: 20px;
+  font-size: medium;
+  font-family: "Yekan";
+  width: 250px;
+  direction: rtl;
+  color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.options-container {
+  display: flex;
+  direction: rtl;
+  align-items: center;
+  flex: 7;
+  justify-content: space-around;
+}
+
+.options-container div {
+  cursor: pointer;
+}
+
+.selected-option {
+  border-bottom: purple solid 5px;
+}
