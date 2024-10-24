@@ -1,8 +1,10 @@
 import "../styles/videos.css"
 import AngleLeft from "../svgIcons/angle-left"
 import AngleRight from "../svgIcons/angle-right"
-import Image from "../assets/photo.jpg"
-import Video from "../assets/video.jpg"
+import photo1 from "../assets/photo1.jpg"
+import photo2 from "../assets/photo2.jpg"
+import photo3 from "../assets/photo3.jpg.crdownload"
+import photo4 from "../assets/photo4.png"
 import Circle from "../svgIcons/circle"
 import { useState } from "react"
 
@@ -12,6 +14,7 @@ function Photoes() {
     const clickHandler = (action) => {
         if (action === "R") {
             setSelectedPhoto(selectedPhoto === 1 ? 4 : selectedPhoto - 1)
+            setImage(photo3)
         } else if (action === "L") {
             setSelectedPhoto(selectedPhoto === 4 ? 1 : selectedPhoto + 1)
         }
