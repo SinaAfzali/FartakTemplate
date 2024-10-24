@@ -1,0 +1,50 @@
+.title-article {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bolder;
+  margin: 2% 9% 2% 0;
+}
+.articles-box {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-right: 10%;
+}
+
+.article {
+  cursor: pointer;
+  width: 31%;
+  margin: 1%;
+}
+.article:hover {
+  transform: scale(1.01) rotate(0.5deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.article img {
+  width: 100%;
+}
+.article p {
+  margin-right: 4%;
+  margin-left: 2%;
+  font-size: 13px;
+  opacity: 0.8;
+}
+.article div {
+  background-color:#e7e6e6;
+  padding-bottom: 5px;
+}
+.article span {
+  margin-right: 4%;
+  margin-left: 2%;
+  font-size: 28px;
+}
+
+@media (max-width: 1000px) {
+  .article p {
+    font-size: 10px;
+  }
+  .article span {
+    font-size: 22px;
+  }
+}
