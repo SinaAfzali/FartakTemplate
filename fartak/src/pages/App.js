@@ -1,9 +1,10 @@
+import Header from "../components/header"
 
 
 function App(){
  return (
-    <div>
-        hello from App
+    <div style={{ width: "100vw" }}>
+        <Header />
     </div>
  )
 }
