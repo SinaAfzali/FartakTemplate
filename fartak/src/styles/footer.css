@@ -1,0 +1,50 @@
+.footer-section {
+  background-color: black;
+  display: flex;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 5%;
+}
+.footer-address {
+  flex: 1;
+  flex-wrap: wrap;
+  padding-right: 5%;
+}
+.footer-address p {
+  width: 50%;
+  color: white;
+}
+.footer-numbers {
+  flex: 1;
+}
+.footer-numbers div {
+  display: flex;
+  color: white;
+}
+.footer-numbers span {
+  color: white;
+  width: 50%;
+}
+
+.footer-options1 {
+  flex: 1;
+}
+.footer-options1 span {
+  color: white;
+}
+.footer-options1 div {
+  display: flex;
+  margin-top: 4%;
+  cursor: pointer;
+}
+.footer-options2 {
+  flex: 1;
+}
+.footer-options2 span {
+    color: white;
+  }
+  .footer-options2 div {
+    display: flex;
+    margin-top: 4%;
+    cursor: pointer;
+  }
