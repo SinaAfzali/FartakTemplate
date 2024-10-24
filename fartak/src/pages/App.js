@@ -1,10 +1,12 @@
 
+import About from "../components/about"
 
-function App(){
- return (
-    <div>
-        hello from App
-    </div>
- )
+function App() {
+    return (
+        <div style={{ width: "100vw" }}>
+
+            <About />
+        </div>
+    )
 }
 export default App
