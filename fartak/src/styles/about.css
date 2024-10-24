@@ -1,0 +1,32 @@
+.about-section {
+  background-color: black;
+  display: flex;
+  margin-top: -1%;
+  margin-bottom: 2%;
+
+  padding-bottom: 2%;
+}
+.title-about {
+  align-self: self-start;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  margin: 0 10% 0 5%;
+  flex: 1;
+}
+.about-text {
+  flex: 7;
+  padding-top: 2%;
+}
+.about-text p {
+  color: white;
+  font-size: 12px;
+  margin-bottom: -1%;
+}
+
+.icon-about {
+  margin-left: 10%;
+  margin-right: 5%;
+  flex: 3;
+  padding-top: 2%;
+}

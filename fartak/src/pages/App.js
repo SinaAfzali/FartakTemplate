@@ -8,11 +8,13 @@ import Services from '../components/services';
 import SuccessfulCases from '../components/successfulCases';
 import Universities from '../components/universities';
 import Videos from '../components/videos';
+import poster from "../assets/poster-about.png"
 
 function App() {
   return (
     <div style={{ width: "100vw" }}>
       <Header />
+      <img src={poster} />
       <About />
       <Universities />
       <Services />

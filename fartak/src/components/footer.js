@@ -22,10 +22,10 @@ function Footer() {
                     </p>
                 </div>
                 <div style={{ display: "flex", width: "50%" }}>
-                    <img src={media1} style={{cursor:"pointer"}} width="25%" />
-                    <img src={media2} style={{cursor:"pointer"}} width="25%" />
-                    <img src={media3} style={{cursor:"pointer"}} width="25%" />
-                    <img src={media4} style={{cursor:"pointer"}} width="25%" />
+                    <img src={media1} style={{ cursor: "pointer" }} width="25%" />
+                    <img src={media2} style={{ cursor: "pointer" }} width="25%" />
+                    <img src={media3} style={{ cursor: "pointer" }} width="25%" />
+                    <img src={media4} style={{ cursor: "pointer" }} width="25%" />
                 </div>
             </div>
             <div className="footer-numbers">
@@ -46,33 +46,33 @@ function Footer() {
             </div>
             <div className="footer-options1">
                 <div>
-                    <AngleLeft width="10%" height="10%" color="yellow" fontWight="bold" cursor="pointer" />
+                    <AngleLeft width="10%" height="10%" color="#2d4900" fontWight="bold" cursor="pointer" />
                     <span>مشاوره تحصیلی</span>
                 </div>
                 <div>
-                    <AngleLeft width="10%" height="10%" color="yellow" fontWight="bold" cursor="pointer" />
+                    <AngleLeft width="10%" height="10%" color="#2d4900" fontWight="bold" cursor="pointer" />
                     <span>پذیرش تحصیلی کانادا</span>
                 </div>
                 <div>
-                    <AngleLeft width="10%" height="10%" color="yellow" fontWight="bold" cursor="pointer" />
+                    <AngleLeft width="10%" height="10%" color="#2d4900" fontWight="bold" cursor="pointer" />
                     <span>ویزای تحصیلی کانادا</span>
                 </div>
                 <div>
-                    <AngleLeft width="10%" height="10%" color="yellow" fontWight="bold" cursor="pointer" />
+                    <AngleLeft width="10%" height="10%" color="#2d4900" fontWight="bold" cursor="pointer" />
                     <span>ویزای تحصیلی ایتالیا</span>
                 </div>
             </div>
             <div className="footer-options2">
                 <div>
-                    <AngleLeft width="10%" height="10%" color="yellow" fontWight="bold" cursor="pointer" />
+                    <AngleLeft width="10%" height="10%" color="#2d4900" fontWight="bold" cursor="pointer" />
                     <span>وقت سفارت آمریکا</span>
                 </div>
                 <div>
-                    <AngleLeft width="10%" height="10%" color="yellow" fontWight="bold" cursor="pointer" />
+                    <AngleLeft width="10%" height="10%" color="#2d4900" fontWight="bold" cursor="pointer" />
                     <span>پیکاپ ویزا</span>
                 </div>
                 <div>
-                    <AngleLeft width="10%" height="10%" color="yellow" fontWight="bold" cursor="pointer" />
+                    <AngleLeft width="10%" height="10%" color="#2d4900" fontWight="bold" cursor="pointer" />
                     <span>نوت آفیسر</span>
                 </div>
             </div>
